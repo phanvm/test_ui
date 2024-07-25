@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import bannerAppImg from "../../images/banner/8376504.png"
+import bannerAppImg from "../../images/banner/gtelpay-banner.png"
 import video from "../../images/banner/banner_1.mp4"
 const MainBanner = () => {
   const [domain, setDomain] = React.useState(window.location.hostname)
