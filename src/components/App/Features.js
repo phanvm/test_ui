@@ -11,7 +11,7 @@ const Features = () => {
             <h6>Ví điện tử GtelPay hỗ trợ khách hàng thanh toán không tiền mặt <br></br> với hàng ngàn ưu đãi</h6>
           </div>
           <div className="row ">
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <div className="row">
                 <div
                   className="col-lg-6 col-sm-6"
@@ -90,7 +90,7 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div
                 className="acquaintance-img align-items-center"
                 data-aos="fade-up"

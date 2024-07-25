@@ -1,5 +1,5 @@
 import * as React from "react"
-import acquaintanceImg from "../../images/service.png"
+import acquaintanceImg from "../../images/service_1.png"
 const OurAcquaintance = () => {
   return (
     <>
@@ -8,7 +8,7 @@ const OurAcquaintance = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div
-                className="acquaintance-img pr-20"
+                className="acquaintance-img pr-20 align-items-center"
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay="400" 
