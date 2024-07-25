@@ -1,0 +1,633 @@
+/*================================================
+Default CSS
+=================================================*/
+.switch-box {
+  position: fixed;
+  bottom: 215px;
+  right: 5px;
+  z-index: 995;
+  background: #6064e3;
+  color: #fff;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 35px;
+  border-radius: 100%;
+}
+.switch-box .ri-sun-line {
+  display: block;
+}
+.switch-box .ri-moon-fill {
+  display: none;
+}
+
+html.dark .switch-box .ri-sun-line {
+  display: none;
+}
+html.dark .switch-box .ri-moon-fill {
+  display: block;
+}
+html.dark body {
+  background-color: #000000;
+  color: #f1f1f1;
+}
+html.dark p {
+  color: #f1f1f1;
+}
+html.dark p a {
+  color: #f1f1f1 !important;
+}
+html.dark .bg-color-f8f8f8 {
+  background-color: #0e0e0e;
+}
+html.dark .bg-color-efedf0 {
+  background-color: #0e0e0e;
+}
+html.dark .bg-color-f9f5f4 {
+  background-color: #0e0e0e;
+}
+html.dark .bg-color-f9f5f4 {
+  background-color: #0e0e0e;
+}
+html.dark .bg-color-f9f9f9 {
+  background-color: #0e0e0e;
+}
+html.dark .bg-color-eef1f6 {
+  background-color: #0e0e0e;
+}
+html.dark .bg-color-1c2029 {
+  background-color: #0e0e0e;
+}
+html.dark .bg-color-0e1013 {
+  background-color: #0e1013;
+}
+html.dark .bg-color-0a0a0a {
+  background-color: #0a0a0a;
+}
+html.dark .bg-color-f5f5f5 {
+  background-color: #0e0e0e;
+}
+html.dark .bg-f7f7f7 {
+  background-color: #0e0e0e;
+}
+html.dark .h1, html.dark .h2, html.dark .h3, html.dark .h4, html.dark .h5, html.dark .h6, html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6 {
+  color: #ffffff !important;
+}
+html.dark .h1 a, html.dark .h2 a, html.dark .h3 a, html.dark .h4 a, html.dark .h5 a, html.dark .h6 a, html.dark h1 a, html.dark h2 a, html.dark h3 a, html.dark h4 a, html.dark h5 a, html.dark h6 a {
+  color: #ffffff !important;
+}
+html.dark .navbar-brand .white-logo {
+  display: block;
+}
+html.dark .navbar-brand .main-logo {
+  display: none;
+}
+html.dark .navbar-light .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+html.dark .navbar-light .navbar-nav .nav-item .nav-link:hover, html.dark .navbar-light .navbar-nav .nav-item .nav-link:focus, html.dark .navbar-light .navbar-nav .nav-item .nav-link.active {
+  color: #0797ff;
+}
+html.dark .navbar-light.nav-style2 {
+  background-color: #0e0e0e;
+}
+html.dark .navbar-light.nav-style2 .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+html.dark .navbar-light.nav-style2 .navbar-nav .nav-item .nav-link:hover, html.dark .navbar-light.nav-style2 .navbar-nav .nav-item .nav-link:focus, html.dark .navbar-light.nav-style2 .navbar-nav .nav-item .nav-link.active {
+  color: #EA514F;
+}
+html.dark .navbar-light.nav-style3 {
+  background-color: #0e0e0e;
+}
+html.dark .navbar-light.nav-style3 .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+html.dark .navbar-light.nav-style3 .navbar-nav .nav-item .nav-link:hover, html.dark .navbar-light.nav-style3 .navbar-nav .nav-item .nav-link:focus, html.dark .navbar-light.nav-style3 .navbar-nav .nav-item .nav-link.active {
+  color: #3561e4;
+}
+html.dark .navbar-light.nav-style4 .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+html.dark .navbar-light.nav-style4 .navbar-nav .nav-item .nav-link:hover, html.dark .navbar-light.nav-style4 .navbar-nav .nav-item .nav-link:focus, html.dark .navbar-light.nav-style4 .navbar-nav .nav-item .nav-link.active {
+  color: #9C5451;
+}
+html.dark .navbar-light.nav-style5 {
+  background-color: #0e0e0e;
+}
+html.dark .navbar-light.nav-style5 .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+html.dark .navbar-light.nav-style5 .navbar-nav .nav-item .nav-link:hover, html.dark .navbar-light.nav-style5 .navbar-nav .nav-item .nav-link:focus, html.dark .navbar-light.nav-style5 .navbar-nav .nav-item .nav-link.active {
+  color: #EA514F;
+}
+html.dark .navbar-light.nav-style6 {
+  background-color: #0e0e0e;
+}
+html.dark .navbar-light.nav-style6 .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+html.dark .navbar-light.nav-style6 .navbar-nav .nav-item .nav-link:hover, html.dark .navbar-light.nav-style6 .navbar-nav .nav-item .nav-link:focus, html.dark .navbar-light.nav-style6 .navbar-nav .nav-item .nav-link.active {
+  color: #0797ff;
+}
+html.dark .navbar-light.nav-style7 .container-fluid {
+  background-color: #0e0e0e;
+}
+html.dark .navbar-light.nav-style7 .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+html.dark .navbar-light.nav-style7 .navbar-nav .nav-item .nav-link:hover, html.dark .navbar-light.nav-style7 .navbar-nav .nav-item .nav-link:focus, html.dark .navbar-light.nav-style7 .navbar-nav .nav-item .nav-link.active {
+  color: #dd131a;
+}
+html.dark .navbar-light.nav-style7.is-sticky {
+  background-color: #0e0e0e !important;
+  box-shadow: 0 0 25px #454545;
+}
+html.dark .navbar.is-sticky {
+  background-color: #0e0e0e !important;
+  box-shadow: 0 0 25px #454545;
+}
+html.dark .navbar-toggler .icon-bar {
+  background: #ffffff;
+}
+html.dark .sass-banner-area {
+  position: relative;
+}
+html.dark .sass-banner-area::before {
+  position: absolute;
+  content: "";
+  background-color: #0e0e0e;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+html.dark .agency-banner-area::before {
+  background-color: #0e0e0e;
+}
+html.dark .trasted-content {
+  background-color: #1d1d1d;
+}
+html.dark .consulting-banner-area {
+  position: relative;
+}
+html.dark .consulting-banner-area::before {
+  position: absolute;
+  content: "";
+  background-color: #0e0e0e;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+html.dark .consulting-banner-content {
+  position: relative;
+}
+html.dark .consulting-banner-content .join-us-btn {
+  color: #ffffff;
+}
+html.dark .consulting-banner-image .careear .content {
+  background-color: #000000;
+}
+html.dark .consulting-banner-image .month-stars {
+  background-color: #000000;
+}
+html.dark .consulting-banner-image .month-stars .list2 li {
+  color: #ffffff;
+}
+html.dark .political-banner-content span {
+  color: #dd131a;
+}
+html.dark .political-banner-content h1 {
+  color: #000000 !important;
+}
+html.dark .political-banner-content p {
+  color: #000000 !important;
+}
+html.dark .currency-exchaange-banner {
+  background-color: #0e0e0e;
+}
+html.dark .currency-exchange-banner-image .currency-converter-form {
+  background-color: #000000;
+}
+html.dark .currency-exchange-banner-content .riviews span {
+  color: #ffffff;
+}
+html.dark .currency-exchange-top-header-area .exchange-header-left-content ul li a {
+  color: #ffffff;
+}
+html.dark .currency-exchange-top-header-area .exchange-header-right-content ul li a {
+  color: #ffffff;
+}
+html.dark .currency-exchange-top-header-area .exchange-header-right-content ul li .language select {
+  color: #ffffff;
+  background-color: #0e0e0e;
+}
+html.dark .partner-slider .partner-logo {
+  opacity: 1;
+}
+html.dark .partner-slider .partner-logo img {
+  filter: invert(1);
+}
+html.dark .consulting-partner-slider img, html.dark .exchange-partners-slider img {
+  filter: invert(1);
+}
+html.dark .consulting-partner-area {
+  border-bottom: 1px solid #343131;
+}
+html.dark .consulting-services-card {
+  border: 1px solid #343131;
+}
+html.dark .sass-single-features-card {
+  background-color: #0e0e0e;
+}
+html.dark .single-app-features-box .features-content {
+  background-color: #0e0e0e;
+}
+html.dark .single-app-features-box::before {
+  background-color: #3a3939;
+}
+html.dark .agency-single-features-card {
+  background-color: #000000;
+}
+html.dark .features-content {
+  background-color: #0e0e0e;
+}
+html.dark .exchange-features-card {
+  background-color: #0e0e0e;
+}
+html.dark .consulting-about-image .customer {
+  background-color: #000000;
+}
+html.dark .political-about-image .description-box {
+  background-color: #000000;
+}
+html.dark .sass-data-content .data-list ul li {
+  background-color: #000000;
+  color: #fff;
+}
+html.dark .sass-data-content .data-list ul li:hover {
+  background-color: #6064e3;
+}
+html.dark .sass-solution-single-card {
+  background-color: #0e0e0e;
+}
+html.dark .agency-single-services-card {
+  background-color: #000000;
+}
+html.dark .agency-single-services-card .services-shape-1 {
+  display: none;
+}
+html.dark .portfolio-slider .swiper-pagination .swiper-pagination-bullet, html.dark .services-slider .swiper-pagination .swiper-pagination-bullet, html.dark .tranding-slider .swiper-pagination .swiper-pagination-bullet, html.dark .photograpy-testimonial-slider .swiper-pagination .swiper-pagination-bullet, html.dark .exchange-testimonials-slider .swiper-pagination .swiper-pagination-bullet {
+  background-color: #454343;
+  opacity: 1;
+}
+html.dark .portfolio-slider .swiper-pagination .swiper-pagination-bullet:hover, html.dark .portfolio-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, html.dark .services-slider .swiper-pagination .swiper-pagination-bullet:hover, html.dark .services-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, html.dark .tranding-slider .swiper-pagination .swiper-pagination-bullet:hover, html.dark .tranding-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, html.dark .photograpy-testimonial-slider .swiper-pagination .swiper-pagination-bullet:hover, html.dark .photograpy-testimonial-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, html.dark .exchange-testimonials-slider .swiper-pagination .swiper-pagination-bullet:hover, html.dark .exchange-testimonials-slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #EA514F;
+}
+html.dark .single-pricing-box {
+  background-color: #000000;
+}
+html.dark .single-pricing-box .pricing-list ul li {
+  color: #ffffff;
+}
+html.dark .app-single-pricing-card {
+  background-color: #000000;
+}
+html.dark .plans-switcher .toggler {
+  color: #ffffff;
+}
+html.dark .plans-switcher .toggler.toggler--is-active {
+  color: #EA514F;
+}
+html.dark .agency-pricing-tabs .tab_content {
+  background-color: #000000;
+}
+html.dark .agency-pricing-box {
+  border-color: #444141;
+}
+html.dark .agency-pricing-box .pricing-content h1 span {
+  color: #ffffff;
+}
+html.dark .photography-pricing-card {
+  background-color: #000000;
+}
+html.dark .agency-team-card {
+  background-color: #0e0e0e;
+}
+html.dark .agency-team-card .team-content .team-caption {
+  background-color: #000000;
+}
+html.dark .photography-team-card .team-caption1 {
+  background-color: #0e0e0e;
+}
+html.dark .photography-team-card .team-caption2 {
+  background-color: #0e0e0e;
+}
+html.dark .political-volunteer-card .volunteer-content {
+  background-color: #0e0e0e;
+}
+html.dark .exchange-specialist-card {
+  background-color: #0e0e0e;
+}
+html.dark .single-team-card {
+  background-color: #0e0e0e;
+}
+html.dark .single-team-card .team-content h3 span {
+  color: #9f9e9e;
+}
+html.dark .single-team-card .team-content .social-links ul li a {
+  color: #9f9e9e;
+}
+html.dark .single-team-card .team-content .social-links ul li a:hover {
+  color: #fff;
+}
+html.dark .converter-form {
+  background-color: #0e0e0e;
+}
+html.dark .converter-form thead tr th {
+  color: #ffffff;
+}
+html.dark .converter-form tbody tr td {
+  color: #ffffff;
+}
+html.dark .converter-area::before {
+  background-color: #000000;
+}
+html.dark .trasted-slider img {
+  filter: invert(1);
+}
+html.dark .active.center .single-reviews-box {
+  background-color: #0e0e0e;
+}
+html.dark .agency-testimonial-card {
+  background-color: #0e0e0e;
+}
+html.dark .agency-testimonial-slider.owl-theme .owl-nav [class*=owl-] {
+  background-color: #0e0e0e;
+  border: 1px solid #eeeeee;
+}
+html.dark .consulting-testimonial-card {
+  background-color: #0e0e0e;
+  border: 1px solid #413f3f;
+}
+html.dark .photograpy-testimonial-card {
+  background-color: #000000;
+}
+html.dark .photograpy-testimonial-slider.owl-theme .owl-nav .owl-prev i {
+  color: #ffffff;
+}
+html.dark .photograpy-testimonial-slider.owl-theme .owl-nav .owl-prev::before {
+  background-color: #ffffff;
+}
+html.dark .photograpy-testimonial-slider.owl-theme .owl-nav .owl-next::before {
+  background-color: #ffffff;
+}
+html.dark .political-testimonial-card {
+  background-color: #000000;
+}
+html.dark .currecy-user-content .currency-user-list li .user-content {
+  background-color: #000000;
+}
+html.dark .currecy-user-content .currency-user-list li .user-content::before {
+  border-left: 15px solid #000000;
+  border-right: 15px solid #000000;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+}
+html.dark .currecy-user-content .currency-user-list li .user-img::before {
+  background-color: #000000;
+}
+html.dark .exchange-testimonials-card {
+  background-color: #000000;
+}
+html.dark .single-reviews-box .reviews-top-content {
+  border-bottom: 1px solid #343131;
+}
+html.dark .faq-accordion .accordion .accordion-item {
+  background-color: #0e0e0e;
+}
+html.dark .faq-accordion .accordion .accordion-title {
+  color: #ffffff;
+}
+html.dark .faq-accordion .accordion .accordion-title i {
+  color: #ffffff;
+}
+html.dark .agency-counter-box::before {
+  border: 1px solid #343131;
+}
+html.dark .single-blog-card .blog-content {
+  background-color: #000000;
+}
+html.dark .single-blog-card .blog-content .name-and-date ul li a {
+  color: #ffffff;
+}
+html.dark .single-blog-card .blog-content h2 a:hover {
+  color: #6064e3;
+}
+html.dark .app-single-blog-card {
+  background-color: #0e0e0e;
+}
+html.dark .agency-blog-card {
+  background-color: #0e0e0e;
+}
+html.dark .agency-blog-card .blog-content .list li a {
+  color: #ffffff;
+}
+html.dark .political-news-card .news-content .list li a {
+  color: #ffffff;
+}
+html.dark .exchange-blog-card {
+  background-color: #000000;
+}
+html.dark .exchange-blog-card .blog-contenet .list li a {
+  color: #ffffff;
+}
+html.dark .contact-and-subscribe-area .contact-widget {
+  background-color: #0e0e0e;
+}
+html.dark .photography-contact-form .form-group .form-control {
+  color: #ffffff;
+  background-color: #000000;
+}
+html.dark .photography-contact-form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+html.dark .photography-contact-form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+html.dark .logo-area .logo-1 {
+  display: none;
+}
+html.dark .logo-area .logo-2 {
+  display: block;
+}
+html.dark .footer-widjet .link-list ul li a {
+  color: #ffffff;
+}
+html.dark .get-in-touch ul li a {
+  color: #ffffff;
+}
+html.dark .agency-subscribe .newsletter-form {
+  background-color: #000000;
+}
+html.dark .copy-right-area p {
+  border-top: 1px solid #343131;
+}
+html.dark .app-copy-right-area .container {
+  border-top: 1px solid #343131;
+}
+html.dark .app-download-area::before {
+  background-color: #000000;
+}
+html.dark .currency-download-area .container::before {
+  background-color: #0e0e0e;
+}
+html.dark .currency-download-area .container::after {
+  background-color: #0e0e0e;
+}
+html.dark .products-top-content .shoting-btn ul li button {
+  color: #ffffff;
+}
+html.dark .agency-default-btn.style2 {
+  background-color: transparent;
+  border: 1px solid #343131;
+  color: #ffffff;
+}
+html.dark .agency-default-btn.style2:hover {
+  background-color: #EA514F;
+  border: 1px solid #EA514F;
+  color: #ffffff;
+}
+html.dark .portfolio-card .portfolio-img .caption-one {
+  background-color: #000000;
+}
+html.dark .portfolio-slider.owl-theme .owl-nav [class*=owl-] {
+  background-color: #000000;
+  border: 1px solid #eeeeee;
+}
+html.dark .portfolio-slider.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #EA514F;
+  color: #ffffff;
+}
+html.dark .political-project-card .project-content {
+  background-color: #0e0e0e;
+}
+html.dark .agency-intro-video-area .video-shape {
+  display: none;
+}
+html.dark .photography-video-area::before {
+  background-color: #0e0e0e;
+}
+html.dark .photograpy-video-content .video-text {
+  background-color: #000000;
+}
+html.dark .political-donation-and-video-area::after {
+  background-color: #000000;
+}
+html.dark .agency-counter-box {
+  background-color: #0e0e0e;
+}
+html.dark .agency-counter-box .counter-content {
+  border: 8px solid #000000;
+  background-color: #0e0e0e;
+}
+html.dark .coming-soon-counter {
+  border: 10px solid #0e0e0e;
+  background-color: #000000;
+}
+html.dark .coming-soon-counter .list ul li {
+  color: #ffffff;
+}
+html.dark .coming-soon-counter .list ul li span {
+  color: #ffffff;
+}
+html.dark .coming-soon-area::before {
+  background-color: #2d2c2c;
+}
+html.dark .consulting-quote-area::before {
+  background-color: #0e0e0e;
+}
+html.dark .consulting-quote-area .container::after {
+  background-color: #0e0e0e;
+}
+html.dark .consulting-quote-area .container::before {
+  background-color: #000000;
+}
+html.dark .tags-and-share .tags ul li a {
+  color: #ffffff;
+}
+html.dark .tags-and-share .tags ul li span {
+  color: #ffffff;
+}
+html.dark .tags-and-share .share ul li span {
+  color: #ffffff;
+}
+html.dark .project-details {
+  background-color: #0e0e0e;
+}
+html.dark .project-details ul li span {
+  color: #ffffff;
+}
+html.dark .sidebar-demo-modal .card h4 {
+  color: #000 !important;
+}
+html.dark .pricing-tabs .react-tabs__tab-list {
+  border-bottom: 1px solid #2d2d2d;
+}
+html.dark .pricing-tabs .react-tabs__tab-list .react-tabs__tab {
+  color: #fff;
+}
+html.dark .agency-pricing-tabs .react-tabs__tab-panel {
+  background-color: #000;
+}
+html.dark .consulting-features-card::before {
+  background-color: #433f3f;
+}
+html.dark .consulting-blog-card .blog-content .list li a {
+  color: #fff;
+}
+html.dark .faq-accordion .accordion .accordion__button {
+  background-color: #1c1a1a;
+  color: #fff;
+}
+html.dark .faq-accordion .accordion .accordion__panel {
+  padding: 20px;
+}
+html.dark .tags-and-share {
+  border-bottom: 1px solid #272727;
+}
+html.dark .comments {
+  border-bottom: 1px solid #272727;
+}
+html.dark .comments .reply {
+  background-color: #414141;
+}
+html.dark .comments .reply a {
+  color: #fff;
+}
+html.dark .contact-info-card {
+  background-color: #101010;
+}
+@media only screen and (max-width: 767px) {
+  html.dark .currecy-user-content .currency-user-list li {
+    background-color: #000000;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  html.dark .currecy-user-content .currency-user-list li .currency-user-card {
+    background-color: #000000;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  html.dark .currecy-user-content .currency-user-list li .currency-user-card {
+    background-color: #000000;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html.dark .nav-style5 .navbar-nav {
+    background: #2c2c2c;
+  }
+}/*# sourceMappingURL=dark-theme.css.map */
