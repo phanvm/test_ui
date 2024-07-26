@@ -3,7 +3,7 @@ import * as React from "react"
 import bannerAppImg from "../../images/banner/gtelpay-banner.png"
 import video from "../../images/banner/banner_1.mp4"
 const MainBanner = () => {
-  const [domain, setDomain] = React.useState(window.location.hostname)
+  const [domain, setDomain] = React.useState('gtelpay.vn')
   const [imageQRCode, setImageQRCode] = React.useState()
   React.useEffect(() => {
     const loadQRCode = async () => {
